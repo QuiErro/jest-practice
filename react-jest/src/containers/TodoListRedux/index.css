@@ -1,0 +1,72 @@
+.header {
+  line-height: 60px;
+  background: #333;
+}
+.header-content {
+  margin: 0 auto;
+  width: 600px;
+  font-size: 24px;
+  color: #fff;
+}
+.header-input {
+  float: right;
+  margin-top: 15px;
+  padding: 0 10px;
+  width: 360px;
+  line-height: 24px;
+  border-radius: 5px;
+  outline: none;
+}
+.undo-list {
+  margin: 0 auto;
+  width: 600px;
+}
+.undo-list-title {
+  margin: 10px 0;
+  line-height: 30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.undo-list-count {
+  float: right;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  text-align: center;
+  background: #e6e6ea;
+  border-radius: 50%;
+}
+.undo-list-content {
+  list-style-type: none;
+}
+.undo-list-item {
+  margin-bottom: 10px;
+  line-height: 32px;
+  font-size: 16px;
+  background: #fff;
+  border-left: 3px solid #629a9c;
+  text-indent: 10px;
+  border-radius: 3px;
+}
+.undo-list-delete {
+  float: right;
+  margin-top: 6px;
+  margin-right: 6px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  background: #e6e6ea;
+  text-indent: 0;
+  cursor: pointer;
+}
+.undo-list-input {
+  position: relative;
+  top: -1px;
+  width: 300px;
+  line-height: 22px;
+  font-size: 14px;
+  text-indent: 10px;
+  outline: none;
+}
